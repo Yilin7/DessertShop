@@ -1,0 +1,252 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+/*头部*/
+.logo{
+	padding: 0;
+}
+.logo-box span{
+	display: block;
+}
+.logo1{
+	/*color: #684829;*/
+	font-size: 30px;
+}
+.logo1 a{
+	color: #684829;
+	font-size: 30px;
+}
+.logo1 a:hover{
+	color: #265A88;
+	text-decoration: none;
+}
+/*<!--移动端SHILIPS-->*/
+.logo-m a img{
+	width: 25%;
+	padding: 15px 0;
+}
+.oopp{
+	position: fixed !important;
+	width: 100%;
+	left: 0;
+	right: 0;
+	top: 0;
+	z-index: 100;
+}
+#opt{
+	width: 100%;
+	margin: 0 auto;
+}
+#men li{
+	padding: 10px 0;
+	border-bottom: 1px solid #ccc;
+}
+#menu a{
+	color: #643E28;
+}
+/*<!--新品-->*/
+.pop{
+	width: 90%;
+	margin: 0 auto;
+}
+/*<!--享受美味 . 享受生活-->*/
+section h4{
+	color: #c9a16d;
+	margin-top: 40px;
+	text-align: center;
+}
+section p{
+	color: #c9a16d;
+	text-align: center;
+}
+.three{
+    position: relative;
+    width: 300px;
+    height: 250px;
+ }
+.pic1{
+    width: 300px;
+    height: 250px;
+ }
+@keyframes picDraw {/*创建动画的具体细节*/
+	0%{
+	    opacity: 0;
+	}
+	50%{
+	    opacity: 1;
+	}
+	100%{
+	    opacity: 0;
+	}
+}
+.pic2{
+    position: absolute;
+    width: 300px;
+    height: 250px;
+    left: 0;
+    top: 0;
+    -webkit-animation: picDraw 10s ease-in-out infinite;/*动画 名字，时间，先加速后减速,表示无限循环播放*/
+} 
+.threee{
+ 	position: relative;
+    width: 300px;
+    height: 250px;
+}
+ .pic3{
+    width: 300px;
+    height: 250px;
+ }
+@keyframes picDraww {
+    0%{
+     opacity: 0;
+  }
+    50%{
+    opacity: 1;
+}
+100%{
+    opacity: 0;
+ }
+}
+.pic4{
+    position: absolute;
+    width: 300px;
+    height: 250px;
+    left: 0;
+    top: 0;
+    -webkit-animation: picDraww 10s ease-in-out infinite;
+} 
+.threr{
+	position: relative;
+    width: 300px;
+    height: 250px;
+    /*border: 1px solid #ccc;*/
+}
+.pic5{
+    width: 300px;
+    height: 250px;
+ }
+@keyframes picDrawe {
+    0%{
+      opacity: 0;
+  }
+    50%{
+      opacity: 1;
+}
+    100%{
+    opacity: 0;
+ }
+}
+.pic6{
+    position: absolute;
+    width: 300px;
+    height: 250px;
+    left: 0;
+    top: 0;
+    -webkit-animation: picDrawe 10s ease-in-out infinite;
+} 
+
+/*正文新品图片*/
+/*新品上市*/
+.four{
+	width: 90%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+/*.polaroids{
+	width:970px;
+	margin:0 0 18px 10px;
+	}*/
+.fouu li{
+	display: inline;
+	}
+.fouu a{
+	background: #fff;
+	display: inline;
+	float:left;
+	margin:0 0 27px 30px;
+	/*width:auto;*/
+	padding:10px 10px ;
+	text-align: center;
+	/*font-family: "Marker Felt", sans-serif;*/
+	/*text-decoration: none;*/
+	color:burlywood;
+	font-size: 18px;
+    -webkit-box-shadow:0 3px 6px rgba(0,0,0,.25);/*X轴偏移量 Y轴偏移量阴影模糊半径 阴影扩展半径 阴影颜色*/
+    -moz-box-shadow:0 3px 6px rgba(0,0,0,.25);
+    -o-box-shadow:0 3px 6px rgba(0,0,0,.25);
+    box-shadow:0 3px 6px rgba(0,0,0,.25);
+}
+.fouu img{
+	display: block;
+	width:200px;
+	margin-bottom:20px;
+}
+.fouu a:after{
+	content: attr(title);/*该属性用于定义元素之前或之后放置的生成内容*/
+	}
+.fouu li:nth-child(even) a{
+    -webkit-transform:rotate(2deg);/*动画顺时针旋转*/
+    -moz-transform:rotate(2deg);
+    -ms-transform:rotate(2deg);
+    transform:rotate(2deg);
+}
+.fouu li a:hover{
+    -webkit-transform:scale(1.25);/*动画缩放数值<1，表示缩小，数值=1，表示不变，数值>1，表示放大*/
+    -moz-transform:scale(1.25);
+    -ms-transform:scale(1.25);
+    transform:scale(1.25);
+    -webkit-box-shadow:0 3px 6px rgba(0,0,0,.5);/*X轴偏移量 Y轴偏移量阴影模糊半径 阴影扩展半径 阴影颜色*/
+    -moz-box-shadow:0 3px 6px rgba(0,0,0,.5);
+    -o-box-shadow:0 3px 6px rgba(0,0,0,.5);
+    box-shadow:0 3px 6px rgba(0,0,0,.5);
+    position: relative;
+    z-index: 5;
+}
+/*底部*/
+.footer{
+	background: #333333;
+	margin-top: 50px;
+}
+.footer-a{
+	/*width: 90%;
+	margin: 0 auto;
+	overflow: hidden;*/
+	/*border: 1px solid lightcoral;*/
+}
+.footer-b{
+	width: 20%;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+.footer-a{
+	overflow: hidden;
+}
+.footer-a ul{
+	text-align: center;
+}
+.footer-a li{
+	float: left;
+}
+.footer-c{
+	text-align: center;
+}
+.footer-c img{
+	margin: 20px 20px;
+}
+.footer-d p{
+	text-align: center;
+	font-size: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #666;
+}
+.footer-e p{
+	text-align: center;
+	font-size: 10px;
+}

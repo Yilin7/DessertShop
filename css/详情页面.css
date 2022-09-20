@@ -1,0 +1,285 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+/*头部*/
+/*欢迎回家*/
+.last{
+	overflow: hidden;
+}
+.last-a{
+	background: #EEDDCB;
+	padding: 5px 0;
+	
+}
+.one{
+	max-width: 90%;
+	min-width: 320px;
+	margin: 0 auto;
+}
+.one span{
+	float: right;
+}
+.one span a{
+	color: black;
+}
+.one span a:hover{
+	color: palevioletred;
+}
+/*<!--头部移动端-->*/
+.last-c p{
+	height: 80px;
+	line-height: 80px;
+}
+.last-c span{
+	float: right;
+	line-height:80px;
+	font-size: 20px;
+	font-weight: bold;
+}
+.last-c a{
+	color:burlywood;
+}
+.last-c a:hover{
+	color:burlywood;
+}
+/*导航条*/
+#naa{
+	background: white;
+	border: 1px solid #E6D2BD;
+}
+.naa{	
+	max-width: 90%;
+	min-width: 320px;
+	margin: 0 auto;
+	height: 80px;
+	width: 100%;
+}
+.naa>ul>li{
+	line-height: 80px;
+	display: inline-block;
+	width: 10.7%;
+	text-align: center;
+	position: relative;
+} 
+.naa>ul>li a{
+	color: #A12A26
+}
+.naa>ul>li:hover a{
+	color: #A12A26
+}
+.naa>ul>li:first-child{
+	color: #A12A26 !important;
+}
+.naa>ul>li:first-child a{
+	color: #A12A26;
+}
+.naa>ul>li>ul{
+	width: 100%;
+	background: #A12A26;
+	display: none;
+}
+.naa>ul>li:hover ul{
+	display: block;
+	position: absolute;
+	z-index: 100;
+}
+.naa>ul>li>ul>li{
+	width: 100%;
+	height: 50px;
+	float: none;
+	line-height: 50px;
+}
+/*.nav>ul>li>ul>li:hover{
+	background: #CE9546;
+}*/
+.naa>ul>li>ul>li>a{
+	color:  burlywood !important;
+}
+.naa>ul>li>ul>li>a:hover{
+	color: wheat !important;
+}
+.naa>ul>li:hover .span{
+	display: block;
+}
+.naa .span{
+	display: block;
+	margin: 0 auto;
+	margin-top: -10px;
+	display: none;
+	width: 10px;
+	height: 10px;
+	border-left: 5px solid transparent;
+	border-bottom: 5px solid #A12A26;
+	border-right: 5px solid transparent;
+	border-top: 5px solid transparent;
+}
+.naa .ccc a{
+	background: #CCCCCC;
+	padding: 2px;
+	color: #A12A26 !important;
+	border-radius: 4px;
+}
+/*轮播图*/
+.plp{
+	width: 90%;
+	margin: 0 auto;
+}
+.caroArea{
+	margin-top: 25px;
+}
+/*<!-- Minty White 清境-->*/
+.one-a ul{
+	overflow: hidden;
+}
+.one-a li{
+	float: left;
+	border: 1px solid burlywood;
+	border-radius: 20px;
+	padding: 2px 15px;
+	margin: 30px 5px;
+}
+.one-a a{
+	color: burlywood;
+}
+.one-a p{
+	line-height: 2em;
+}
+/*<!--标签页-->*/
+.cont{
+	margin-top: 10px;
+}
+.second{
+	max-width: 90%;
+	margin: 0 auto;
+}
+.left{
+	margin-bottom: 10px;
+}
+.nav li a{
+	font-weight: bold;
+	color: burlywood;
+}
+#b{
+	width: 100%;
+	height: 100%;
+	border-left:1px solid #E1E5EE ;
+	border-right:1px solid #E1E5EE ;
+	border-bottom: 1px solid #E1E5EE;
+	padding: 0px 6px;
+}
+.content{
+	display: flex;
+	padding: 0px;
+}
+.goods-list img{
+	width: 100%;
+}
+.goods-items p{
+	color: burlywood;
+}
+.goods-items a{
+	color: burlywood;
+}
+/*底部*/
+.footer{
+	margin-top: 50px;
+}
+.footer-a{
+	width: 100%;
+	background: #333333;
+	overflow: hidden;
+	/*border: 1px solid lightcoral;*/
+}
+.footer-b{
+	width: 20%;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+.footer-a{
+	overflow: hidden;
+}
+.footer-a ul{
+	text-align: center;
+}
+.footer-a li{
+	float: left;
+}
+.footer-c{
+	text-align: center;
+}
+.footer-c img{
+	margin: 20px 20px;
+}
+.footer-d p{
+	text-align: center;
+	font-size: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #666;
+}
+.footer-e p{
+	text-align: center;
+	font-size: 10px;
+}
+/*移动端*/
+/*头部*/
+
+.logo-m a img{
+	width: 25%;
+	padding: 15px 0;
+}
+.oopp{
+	position: fixed !important;
+	width: 100%;
+	left: 0;
+	right: 0;
+	top: 0;
+	z-index: 100;
+}
+#opt{
+	width: 100%;
+	margin: 0 auto;
+}
+#men li{
+	padding: 10px 0;
+	border-bottom: 1px solid #ccc;
+}
+#menu a{
+	color: #643E28;
+}
+
+/*显示图*/
+#imgtest ul li img{ 
+ 	height:110px; 
+ 	width:100px; 
+ 	position:absolute;
+ 	 border:5px solid #FFF;
+ 	 } 
+#imgtest{
+	height:auto;
+	width:90%;
+	
+	margin: 0 auto;
+    position:absolute; 
+	 } 
+#imgtest ul{ 
+	position:relative;
+	width:90%;
+	height:auto; 
+	background:;
+	} 
+#imgtest ul li{
+	 position:relative;
+	  height:110px; 
+	  width:100px; 
+	  list-style:none; 
+	  float:left; 
+	  margin:3px; 
+	  border:1px solid #999;
+} 

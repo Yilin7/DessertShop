@@ -1,0 +1,175 @@
+*{
+	 margin: 0;
+	 padding: 0;
+	 font-family: 微软雅黑;
+	 /*font-size: 24px;*/
+	}
+.li{
+	list-style: none;
+}
+.a{
+	text-decoration: none;
+}
+body{
+	background: url(../img/1c1ea5b20c805a3c7cc17e9611f3d0ee.jpg) no-repeat;
+	
+}
+/*头部*/
+/*欢迎回家*/
+.last{
+	overflow: hidden;
+}
+.last-a{
+	background: #EEDDCB;
+	padding: 5px 0;
+}
+.one{
+	max-width: 90%;
+	min-width: 320px;
+	margin: 0 auto;
+}
+.one span{
+	float: right;
+}
+.one span button{
+	padding: 3px;
+}
+.one span a{
+	color: black;
+}
+.one span a:hover{
+	color: palevioletred;
+}
+/*<!--头部移动端-->*/
+.last-c{
+	background: white;
+}
+.last-c p{
+	height: 80px;
+	line-height: 80px;
+}
+.last-c span{
+	float: right;
+	line-height:80px;
+	font-size: 15px;
+	font-weight: bold;
+}
+.last-c a{
+	color:burlywood;
+}
+.last-c a:hover{
+	color:burlywood;
+}
+/*导航条*/
+#nav{
+	background: white;
+	border: 1px solid #E6D2BD;
+}
+.nav{	
+	max-width: 90%;
+	min-width: 320px;
+	margin: 0 auto;
+	height: 80px;
+	width: 100%;
+}
+.nav>ul>li{
+	line-height: 80px;
+	display: inline-block;
+	width: 10.7%;
+	text-align: center;
+	position: relative;
+	list-style: none;
+} 
+.nav>ul>li a{
+	color: #A12A26
+}
+.nav>ul>li:hover a{
+	color: #A12A26
+}
+.nav>ul>li:first-child{
+	color: #A12A26 !important;
+	/*background: lightblue;*/
+}
+.nav>ul>li:first-child a{
+	color: #A12A26;
+}
+
+.nav>ul>li>ul{
+	width: 100%;
+	background: #A12A26;
+	display: none;
+}
+.nav>ul>li:hover ul{
+	display: block;
+	position: absolute;
+	z-index: 100;
+}
+.nav>ul>li>ul>li{
+	width: 100%;
+	height: 50px;
+	float: none;
+	line-height: 50px;
+}
+.container ul{
+	list-style: none;
+}
+/*.nav>ul>li>ul>li:hover{
+	background: #CE9546;
+}*/
+.nav>ul>li>ul>li>a{
+	color:  burlywood !important;
+}
+.nav>ul>li>ul>li>a:hover{
+	color: wheat !important;
+}
+.nav>ul>li:hover .span{
+	display: block;
+}
+.nav .span{
+	display: block;
+	margin: 0 auto;
+	margin-top: -10px;
+	display: none;
+	width: 10px;
+	height: 10px;
+	border-left: 5px solid transparent;
+	border-bottom: 5px solid #A12A26;
+	border-right: 5px solid transparent;
+	border-top: 5px solid transparent;
+}
+.nav .ccc a{
+	background: #CCCCCC;
+	padding: 2px;
+	color: #A12A26 !important;
+	border-radius: 4px;
+}
+
+.box{
+	 width: 390px;
+	 height: 320px;
+	 border: solid 1px #ddd;
+	 background: rgba(247,247,238,0.5);
+	 position: absolute;
+	 left: 30%;
+	 top:48%;
+	 margin-left: -195px;
+	 margin-top: -160px;
+	 text-align: center;
+	}
+.box h2{
+	 font-weight: normal;
+	 color:#666;
+	 font-size: 16px;
+	 line-height: 40px;
+	margin-top: 0px;
+	 overflow: hidden;
+	 text-align: center;
+	 border-bottom: solid 1px #ddd;
+	 background: #f7f7f7;
+	}
+.input_box{
+	 width:350px;
+	 padding-bottom: 15px;
+	 margin: 0 auto;
+	 overflow: hidden;
+	}
